@@ -1,0 +1,6 @@
+<code_scheme name="Default" version="173">
+  <codeStyleSettings language="JAVA">
+    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
+    <option name="KEEP_BUILDER_METHODS_INDENTS" value="true" />
+  </codeStyleSettings>
+</code_scheme>

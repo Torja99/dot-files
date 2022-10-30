@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account name="Torja-LoyaltyOne" id="f61e0d3a-62ec-44ad-8dbd-7268711f7a58">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>

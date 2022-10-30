@@ -1,0 +1,8 @@
+CheckStyle-IDEA
+IdeaVIM
+Pythonid
+com.haulmont.jpab
+com.markskelton.one-dark-theme
+dev.eltonsandre.intellij.spring.assistant.plugin
+io.nimbly.tzatziki
+net.seesharpsoft.intellij.plugins.csv
