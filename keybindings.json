@@ -1,24 +1,91 @@
 // Place your key bindings in this file to override the defaults
 [
-    {
-        "key": "cmd+h",
-        "command": "workbench.action.navigateLeft"
-    },
-    {
-        "key": "cmd+l",
-        "command": "workbench.action.navigateRight"
-    },
-    {
-        "key": "cmd+k",
-        "command": "workbench.action.navigateUp"
-    },
-    {
-        "key": "cmd+j",
-        "command": "workbench.action.navigateDown"
-    },
-    {
-        "key": "cmd+l",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminal.active"
-    },
+  {
+    "key": "cmd+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "cmd+k",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "cmd+j",
+    "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-deleteLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-extension.vim_ctrl+h",
+    "when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-java.action.showTypeHierarchy",
+    "when": "editorTextFocus && javaLSReady && editorLangId == 'java'"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+i",
+    "command": "-editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.tasks.reRunTask",
+    "when": "taskCommandsRegistered && !terminalFocus"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.terminal.runRecentCommand",
+    "when": "accessibilityModeEnabled && terminalFocus && terminalHasBeenCreated || accessibilityModeEnabled && terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-extension.vim_ctrl+r",
+    "when": "editorTextFocus && vim.active && vim.use<C-r> && !inDebugRepl"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-go.test.previous",
+    "when": "editorLangId == 'go'"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+    "when": "inQuickOpen && inRecentFilesPicker"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "redo"
+  },
+  {
+    "key": "shift+cmd+z",
+    "command": "-redo"
+  }
 ]
